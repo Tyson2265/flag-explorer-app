@@ -13,5 +13,21 @@ A web application to explore country flags with a React frontend and Spring Boot
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd flag-explorer-app
+   git clone https://github.com/Tyson2265/flag-explorer-app
+
+#### Backend Setup
+- Navigate to the `backend` directory:
+  ```bash
+  cd backend
+  mvn install
+  mvn test
+  mvn spring-boot:run
+
+Verify the API is running at http://localhost:8080/countries
+
+#### Frontend Setup
+- Navigate to the `frontend` directory:
+  ```bash
+  cd frontend
+  npm install
+  npm start
