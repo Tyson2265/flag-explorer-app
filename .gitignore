@@ -1,0 +1,37 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+
+# Node
+node_modules/
+build/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Coverage
+coverage/
