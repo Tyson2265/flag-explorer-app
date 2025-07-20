@@ -26,8 +26,9 @@ A web application to explore country flags with a React frontend and Spring Boot
 Verify the API is running at http://localhost:8080/countries
 
 #### Frontend Setup
-- Navigate to the `frontend` directory:
+- Navigate to the `frontend` directory: Use cypress to test front end
   ```bash
   cd frontend
   npm install
   npm start
+  npx cypress open --component
